@@ -12,10 +12,12 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="http://code.highcharts.com/highcharts.js"></script>
+		<script src="http://code.highcharts.com/modules/data.js"></script>
+		<script src="http://code.highcharts.com/modules/drilldown.js"></script>
 	</head>
 	<body>
-
 		<!-- Header -->
 			<section id="header">
 				<header>
@@ -30,16 +32,9 @@
 		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<div style="margin:10%">
-					
-					<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script src="http://code.highcharts.com/highcharts.js"></script>
-		<script src="http://code.highcharts.com/modules/data.js"></script>
-		<script src="http://code.highcharts.com/modules/drilldown.js"></script>	
-		
-		
-		
-		<div id="container-a" style="min-width: 310px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+				
+				
+				<div id="container-a" style="min-width: 310px; max-width: 600px; height: 400px; margin: 0 auto"></div>
 
 <!-- Data from www.netmarketshare.com. Select Browsers => Desktop share by version. Download as tsv. -->
 <pre id="tsv" style="display:none">Browser Version	Total Market Share
@@ -128,9 +123,10 @@ $(function () {
             });
 
             // Create the chart
-            $('#container-a').highcharts({
+            chart = new Highcharts.Chart({
                 chart: {
-                    type: 'pie'
+                    type: 'pie',
+                    renderTo: 'container-a'
                 },
                 title: {
                     text: 'Item breakdown by percentage of total project cost'
@@ -168,12 +164,14 @@ $(function () {
 
 <div class="spacer"></div>
 
-<div id="container-b" style="height: 400px"></div>
+<div id="container-b" style="min-width: 310px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+<!--<div id="container-b" style="height: 400px"></div>-->
 
 <script>
 $(function () {
-    $('#container-b').highcharts({
+   chart = new Highcharts.Chart({
         chart: {
+        	renderTo: 'container-b',
             type: 'pie',
             options3d: {
                 enabled: true,
@@ -206,11 +204,12 @@ $(function () {
     });
 });
 </script>
-		
-		
-		
-					<h2>[xyz-ihs snippet="costdrill"]
-
+					
+			
+				
+					
+				</header>
+<p>
 While the total cost of HABs are daunting for many educators and hobbyists, consumables (helium and balloon) account for less than 1/3 of total costs. Therefore, each new flight is significantly cheaper after a previous, successful recovery.  JavaScript charts generated with Highcharts. Special thanks to Ryan Hartsock for having the bright idea that solved finishing the 'drilldown' pie graph!
 
 Build components (prices in $USD)
@@ -221,19 +220,15 @@ After and before photos of printed circuit board assembly
 20141201_000033APRS-enabled radio tracking of payload test
 
 Screen Shot 2014-12-09 at 10.04.42 PM
-					</div>
-					</h2>
-				</header>
+</p>
 				<p><br />
 				</p>
       <footer>
         <!-- <a href="#first" class="button style2 scrolly">Get ready to launch</a>
         </footer>-->
 			</section>
-
-		
-
-		
+			
+			
 		<!-- Portfolio -->
 			<article class="container box style2">
 				<header style="background-color:rgba(255,255,255,.6)"> 
