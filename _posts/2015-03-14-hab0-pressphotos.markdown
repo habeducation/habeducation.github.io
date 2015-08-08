@@ -4,8 +4,8 @@ title:  "Press/Photos"
 date:   2015-03-18 08:43:59
 author: Dustin Mayfield-Jones
 categories: Press/Photos
-tags:	hab_0
-launch: hab_0
+tags:	
+launch:
 ---
 
 HAB_0 mentioned by Arch Reactor President, Deech Mestel, on television show Stay Tuned on KETC-PBS St. Louis, Missouri
