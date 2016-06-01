@@ -1,4 +1,4 @@
 ---
-layout: science
+layout: data
 title: Science
 ---
