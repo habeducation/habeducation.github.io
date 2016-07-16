@@ -11,6 +11,7 @@ var hab = {
 function plotGraph(id, csvfile, x, y, c, animate, width, height) {
     d3.csv(csvfile, (csvdata) => {
         var datasofar = animate ? csvdata.slice(0, 1) : csvdata;
+        var datascale = csvdata;
         var spec = {
             description: 'High altitude balloon',
             data: {
@@ -29,7 +30,6 @@ function plotGraph(id, csvfile, x, y, c, animate, width, height) {
                 },
             },
         };
-        console.log(spec.encoding);
 
         spec.encoding.x.scale.domain = d3.extent(csvdata, (d) => {
             return +d[spec.encoding.x.field];
@@ -41,7 +41,7 @@ function plotGraph(id, csvfile, x, y, c, animate, width, height) {
         function updategraph(view, data, i) {
             view.data('source').insert(data.slice(i, i + 1));
             view.update();
-            window.setTimeout(updategraph, 50, view, data, i + 1);
+            window.setTimeout(updategraph, 10, view, data, i + 1);
         }
 
         var vgSpec = vl.compile(spec).spec;
