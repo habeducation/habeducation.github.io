@@ -7,6 +7,9 @@
 <script src="{{base}}/js/hab.js"></script>
 <script src="{{base}}/js/jquery.js"></script>
 
+<label for="var">Animate?</label>
+<input type="checkbox" id="var" checked="on" />
+<br />
 Altitude of flights
 <div id="arbitrary"></div>
 Flight paths lat vs lng
@@ -18,27 +21,36 @@ Altitude vs ozone for each flight
 <div id="version"></div>
 
 <script>
-$(function() {
+function plotGraphs(animate) {
     var x = { field: 'timestamp_offset', type: 'quantitative', scale: { zero: true } };
     var y = { field: 'altitude_ft', type: 'quantitative', scale: { zero: false } };
     var c = { field: 'cat', type: 'nominal' };
-    plotGraph('#arbitrary', '/data/balloon4.csv', x, y, c);
+    plotGraph('#arbitrary', '/data/balloon5.csv', x, y, c, animate);
 
     var x = { field: 'lng', type: 'quantitative', scale: { zero: false } };
     var y = { field: 'lat', type: 'quantitative', scale: { zero: false } };
     var c = { field: 'cat', type: 'nominal' };
-    plotGraph('#arbitrary2', '/data/balloon4.csv', x, y, c);
+    plotGraph('#arbitrary2', '/data/balloon5.csv', x, y, c, animate);
 
 
     var x = { field: 'pressure', type: 'quantitative', scale: { zero: false } };
     var y = { field: 'altitude_ft', type: 'quantitative', scale: { zero: false } };
     var c = { field: 'cat', type: 'nominal' };
-    plotGraph('#arbitrary3', '/data/balloon4.csv', x, y, c);
+    plotGraph('#arbitrary3', '/data/balloon5.csv', x, y, c, animate);
 
     var x = { field: 'oxid_gas', type: 'quantitative', scale: { zero: false } };
     var y = { field: 'altitude_ft', type: 'quantitative', scale: { zero: false } };
     var c = { field: 'cat', type: 'nominal' };
-    plotGraph('#arbitrary4', '/data/balloon4.csv', x, y, c);
+    plotGraph('#arbitrary4', '/data/balloon5.csv', x, y, c, animate);
     setupVersion("#version");
+}
+
+$("#var").click(function() {
+    plotGraphs($("#var").prop('checked'));
 });
+
+$(function() {
+    plotGraphs($("#var").prop('checked'));
+});
+
 </script>
