@@ -5,7 +5,7 @@ title: Events Calendar
 
 # Upcoming event highlights
 
-### August 2016 (Date TBD)
+### August 6, 2016
 
 #### Saint Louis Regional Educators Summit
 
@@ -23,49 +23,17 @@ title: Events Calendar
 
 # Past events
 
-### June 16-19, 2016
-
-#### Great Plains Super Launch (Pecan Plantation, Granbury, Texas)
-
-
-- HAB.education participated in the Super Launch with other teams in the GPSL.
-- For more information, visit the [Great Plains Super Launch website](http://superlaunch.org/)
-
-### June 4, 2016
-
-#### 3-5pm Library Launch at Saint Louis Public Library (Julia Davis Branch)
-
-Participants were encouraged to stop by the [Julia Davis branch](http://www.slpl.org/slpl/library/article240098545.asp) ([Map](https://goo.gl/maps/Z6UEP3J4PmR2)) between **3-5pm** to
-- Find out what happened during the Library Launch from that morning.
-- Discover how high altitude balloons are used in STEM education.
-- Simulate their own flight with prediction software.
-- Practice using radio direction finding to track their balloon.
-- Make a temperature humidity sensor with the raspberry pi zero.
-- Analyze data to discover that morning's  atmosphere: clouds, temperature, ozone layers.
-- Preview our next generation video system for live, high-def video from balloon to ground.
-- Learn how their school can join other Saint Louis region educators to get involved in the HAB community!
-
-This event was open and free to the public.
-
-#### Morning Library Launch!
-
-- Location: Damiansville, IL
-- We will tested our [Slow-scan TV](https://en.wikipedia.org/wiki/Slow-scan_television) that sends live image from ballons aloft. 
-
-#### Morning Saint Louis Space Frontiers Inaugural Launch!
-
-- Saint Louis Space Frontiers sent their first payload into space.
-- The payload featured a Trackuino tracker as well as bundled sensors and a Raspberry Pi to capture images.
-
+- Great Plains Super Launch (Pecan Plantations, Granbury, Texas) : June 16-19, 2016
+- Saint Louis Public Library and Saint Louis Space Frontier Launches : June 5, 2016
 - Dayton Hamvention : May 20-22, 2016 
-- YMCA Science Gone Mad Student Launch : April 16, 2016
+- YMCA Science Gone Mad with Loyola Academy of Saint Louis Launch : April 16, 2016
 - 2016 [Robot and Technology Expo](https://sites.google.com/site/2016robotechnoexpo/) (Park Hills, MO) : April 9, 2016
 - East St. Louis School District's First Annual Family STEM Night : March 30, 2016
 - Saint Louis Space Frontier [HAB Electronics Workshop](http://www.meetup.com/Saint-Louis-Space-Frontier-Meetup/events/229409905/?_af=event&_af_eid=229409905) : March 12, 2016
-- Saint Louis Public Library (Julia Davis Branch) : February 13, 2016
+- Saint Louis Public Library presentation (Julia Davis Branch) : February 13, 2016
 - STEMpact STEM Fair : February 11, 2016
 - Saint Louis Balloon Hack : November 2015
-- Kirksville Launch : October 24, 2015
+- Launch with Kirksville High School Maker Club : October 24, 2015
 - Saint Louis Raspberry Pi Jam : October 3, 2015
 - Great Plains Super Launch : June 19-21 2015
 - SpikeInSpace : March 14, 2015
