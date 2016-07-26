@@ -42,10 +42,12 @@ at [Arch Reactor Hackerspace]({{ http://archreactor.org }}) in Saint Louis
 dereksigler@yahoo.com
 
 **Debora Lintner**  
-at South East Missouri State University      
+at Southeast Missouri State University      
 dlintner@semo.edu
 
 
 **Colin D**  
 at University of Missouri-Columbia    
 http://cmdcolin.github.io
+
+
