@@ -17,6 +17,9 @@ contact@hab.education
 {: style="text-align: center;"}
 
 
+
+
+
 You can also contact a volunteer from your region:
 
 
@@ -26,16 +29,9 @@ You can also contact a volunteer from your region:
 at University of Missouri-Saint Louis    
 drm5y3@mail.missouri.edu
 
-
 **Huan Truong**  
 at University of Missouri-Columbia    
 huantruong@mail.missouri.edu  
-
-
-**Shihab Adnan**  
-at Missouri University of Science and Technology  
-mar39@mst.edu
-
  
 **Dr. Donald Bindner**  
 at Truman State University  
@@ -45,10 +41,9 @@ dbindner@truman.edu
 at [Arch Reactor Hackerspace]({{ http://archreactor.org }}) in Saint Louis  
 dereksigler@yahoo.com
 
-
 **Debora Lintner**  
-at University of Missouri-Columbia      
-LintnerDR@missouri.edu
+at South East Missouri State University      
+dlintner@semo.edu
 
 
 **Colin D**  
