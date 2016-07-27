@@ -14,6 +14,7 @@ To help support us financially
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
+Arch Reactor is a 501c3 Educational Non-Profit Organization. Check out https://archreactor.org/about to learn more.
 
 # Join our educational team
 Like you, we are always searching for better ways to teach. Contact us to get involved!
