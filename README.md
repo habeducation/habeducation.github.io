@@ -9,6 +9,7 @@ Run these commands for site setup
     npm install
     jekyll serve
     gulp
+    bundle
 
 
 ## Workflow for adding new balloon data to a CSV
@@ -19,3 +20,11 @@ Run these commands for site setup
 * Append the melted dataframe to the rest of the balloon data
 * Rename variables in the new data frame to match as much as possible the existing names in the other datasets
 * Recast the data back to a normal format
+
+
+## Create a new post
+
+Uses bundle to run [jekyll-compose](https://github.com/jekyll/jekyll-compose), so run `bundle` first, then
+
+    bundle exec jekyll post "My New Post"
+
