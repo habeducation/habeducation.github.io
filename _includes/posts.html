@@ -9,8 +9,10 @@
     </div>
 
     <div class="tab-container">
-        {% for post in site.posts limit:limitposts %}
-            {% unless post.tags contains "ruby" %}
+        {% assign counter=0 %}
+        {% for post in site.posts %}
+            {% unless post.tags contains "Discussion" %}
+                {% if counter < limitposts %}
                 {% if post.thumb != null %}
                 <a class="tab" href="{{ post.url }}" style="background-image: url('{{ post.thumb }}');">
                 {% else %}
@@ -19,6 +21,8 @@
                   <h3>{{ post.title }}</h3>
                   <div class="subtitle">{{ post.date  | date: "%-d %B %Y" }}</div>
                 </a>
+                {% endif %}
+                {% assign counter=counter | plus:1 %}
             {% endunless %}
         {% endfor %}
   </div>
