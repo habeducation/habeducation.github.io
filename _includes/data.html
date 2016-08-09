@@ -21,7 +21,7 @@
         <a class="tab" href="{{ post.url }}" style="background-image: url('https://twitter.com/balloonedu/profile_image?size=bigger');">
         {% endif %}
           <h3>{{ post.title }}</h3>
-          <div class="subtitle"><!--{% if post.author != null %}<strong>{{ post.author }}</strong> - {% endif %}-->{{ post.date  | date: "%-d %B %Y" }}</div>
+          <div class="subtitle">{{ post.date  | date: "%-d %B %Y" }}</div>
           {% if post.abstract != null %}
           <div class="abstract">{{ post.abstract }}</div>
           {% endif %}
