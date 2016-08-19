@@ -20,6 +20,12 @@ title: Events Calendar
 
 - We will present our data, videos, and goals, highlighting our Eclipse 2017 launch to the public.
 
+### September 24, 2016
+
+#### The Saint Louis murmuration festival (Cortex Innovation Community)
+
+- We will share all things HAB going on in Saint Louis!
+
 # Past events
 - Saint Louis Regional HAB Eduator Summit (Arch Reactor) : August 6, 2016
 - Great Plains Super Launch (Pecan Plantations, Granbury, Texas) : June 16-19, 2016
