@@ -5,24 +5,29 @@ title: Events Calendar
 
 # Upcoming event highlights
 
-### August 6, 2016
+### September 4, 2016
 
-#### Saint Louis Regional Educators Summit
-
-
-- We are inviting educators currently using HABs in their classrooms to join us for the region's first HAB educator summit!
- 
-
-### September 2016 (Date TBD)
-
-#### Lab Revolution Launch (Farmington, Missouri)
+#### Introduction to HABs Night at Lab Revolution (Farmington, MO)
 
 
-- We will update more information as details emerge for this launch with [Lab Revolution](labrevo.org)
+- We will share some ways to build and plan an HAB launch with [Lab Revolution](http://4hlabrevo.wixsite.com/4hlabrevo)!
 
+
+### September 10, 2016
+
+#### Bonne Terre Aire Festival (Bonne Terre, Missouri)
+
+
+- We will present our data, videos, and goals, highlighting our Eclipse 2017 launch to the public.
+
+### September 24, 2016
+
+#### The Saint Louis murmuration festival (Cortex Innovation Community)
+
+- We will share all things HAB going on in Saint Louis!
 
 # Past events
-
+- Saint Louis Regional HAB Eduator Summit (Arch Reactor) : August 6, 2016
 - Great Plains Super Launch (Pecan Plantations, Granbury, Texas) : June 16-19, 2016
 - Saint Louis Public Library and Saint Louis Space Frontier Launches : June 5, 2016
 - Dayton Hamvention : May 20-22, 2016 
