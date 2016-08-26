@@ -628,7 +628,9 @@ header .alt.right {
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
         padding: 0 0 10px;
-        font-size: 12px
+        font-size: 12px;
+        overflow-x: scroll; /* has to be scroll, not auto */
+        -webkit-overflow-scrolling: touch
     }
 }
 header .tab {
