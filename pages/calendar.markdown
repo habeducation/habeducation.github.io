@@ -5,28 +5,16 @@ title: Events Calendar
 
 # Upcoming event highlights
 
-### September 4, 2016
+### October 8, 2016
+- [Gateway to Space](http://stlouisspacefrontier.org/gateway-to-space-2016/) Conference. Presentation title: High altitude balloons (HABs) for high-value planetary science observation. Abstract: High altitude balloons are valuable tools for planetary science observation. They are an inexpensive means to simulate the conditions of space, and are commonly used in K-12 and university-level science and engineering classrooms. Here, we broadly present opportunities for their application in education and scientific discovery and show results from our collaboration with the YMCA to teach 6th-8th grade students from Loyola Academy of Saint Louis. (Saint Louis University’s Parks College of Engineering, Aviation, and Technology)
 
-#### Introduction to HABs Night at Lab Revolution (Farmington, MO)
-
-
-- We will share some ways to build and plan an HAB launch with [Lab Revolution](http://4hlabrevo.wixsite.com/4hlabrevo)!
-
-
-### September 10, 2016
-
-#### Bonne Terre Aire Festival (Bonne Terre, Missouri)
-
-
-- We will present our data, videos, and goals, highlighting our Eclipse 2017 launch to the public.
-
-### September 24, 2016
-
-#### The Saint Louis murmuration festival (Cortex Innovation Community)
-
-- We will share all things HAB going on in Saint Louis!
+### October 9, 2016
+- Putative date for an HAB launch benefiting the Leukemia & Lymphoma Society
 
 # Past events
+- The Saint Louis murmuration festival (Cortex Innovation Community) : September 24, 2016
+- Bonne Terre Aire Festival (Bonne Terre, Missouri) : September 10, 2016
+- Introduction to HABs Night at [Lab Revolution](http://4hlabrevo.wixsite.com/4hlabrevo) (Farmington, MO) : September 4, 2016
 - Saint Louis Regional HAB Eduator Summit (Arch Reactor) : August 6, 2016
 - Great Plains Super Launch (Pecan Plantations, Granbury, Texas) : June 16-19, 2016
 - Saint Louis Public Library and Saint Louis Space Frontier Launches : June 5, 2016
