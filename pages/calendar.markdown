@@ -11,7 +11,7 @@ title: Events Calendar
 # Past events
 - [Gateway to Space](http://stlouisspacefrontier.org/gateway-to-space-2016/) Conference. Presentation title: High altitude balloons (HABs) for high-value planetary science observation. Abstract: High altitude balloons are valuable tools for planetary science observation. They are an inexpensive means to simulate the conditions of space, and are commonly used in K-12 and university-level science and engineering classrooms. Here, we broadly present opportunities for their application in education and scientific discovery and show results from our collaboration with the YMCA to teach 6th-8th grade students from Loyola Academy of Saint Louis. (Saint Louis University’s Parks College of Engineering, Aviation, and Technology) : October 8th, 2016
 
- The Saint Louis murmuration festival (Cortex Innovation Community) : September 24, 2016
+- The Saint Louis murmuration festival (Cortex Innovation Community) : September 24, 2016
 - Bonne Terre Aire Festival (Bonne Terre, Missouri) : September 10, 2016
 - Introduction to HABs Night at [Lab Revolution](http://4hlabrevo.wixsite.com/4hlabrevo) (Farmington, MO) : September 4, 2016
 - Saint Louis Regional HAB Eduator Summit (Arch Reactor) : August 6, 2016
