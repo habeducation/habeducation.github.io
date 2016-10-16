@@ -5,8 +5,8 @@ title: Events Calendar
 
 # Upcoming event highlights
 
-### Public Launch benefitting Leukemia & Lymphoma Society
-###: November 5th, 2016 10AM at Damiansville, IL 
+### Public Launch benefiting Leukemia & Lymphoma Society
+### : November 5th, 2016 10AM at Damiansville, IL 
 - (Damiansville Park Albers, Illinois 62215) This event is open to the public. The event is free. Donations to the Leukemia & Lymphoma society are appreciated. HAB.education will present on the high altitude balloon. To learn more and get your own ornament from the launch that will travel to nearspace, visit the [facebook event page](https://www.facebook.com/events/118442135288654/).
 
 # Past events
