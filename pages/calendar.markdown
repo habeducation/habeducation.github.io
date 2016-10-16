@@ -6,8 +6,7 @@ title: Events Calendar
 # Upcoming event highlights
 
 ### Public Launch benefiting Leukemia & Lymphoma Society
--  November 5th, 2016 10AM at Damiansville, IL 
-- (Damiansville Park Albers, Illinois 62215) This event is open to the public. The event is free. Donations to the Leukemia & Lymphoma society are appreciated. HAB.education will present on the high altitude balloon. To learn more and get your own ornament from the launch that will travel to nearspace, visit the [facebook event page](https://www.facebook.com/events/118442135288654/).
+-  November 5th, 2016 10AM at Damiansville, IL (Damiansville Park Albers, Illinois 62215) This event is open to the public. The event is free. Donations to the Leukemia & Lymphoma society are appreciated. HAB.education will present on the high altitude balloon. To learn more and get your own ornament from the launch that will travel to nearspace, visit the [facebook event page](https://www.facebook.com/events/118442135288654/).
 
 # Past events
 - [Gateway to Space](http://stlouisspacefrontier.org/gateway-to-space-2016/) Conference. Presentation title: High altitude balloons (HABs) for high-value planetary science observation. Abstract: High altitude balloons are valuable tools for planetary science observation. They are an inexpensive means to simulate the conditions of space, and are commonly used in K-12 and university-level science and engineering classrooms. Here, we broadly present opportunities for their application in education and scientific discovery and show results from our collaboration with the YMCA to teach 6th-8th grade students from Loyola Academy of Saint Louis. (Saint Louis University’s Parks College of Engineering, Aviation, and Technology) : October 8th, 2016
