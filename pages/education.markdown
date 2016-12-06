@@ -18,6 +18,8 @@ We are now working to provide free support and resources for educators to teach 
 ### What can I teach my students?
 + Many aspects of a STEAM education can be applied with High Altitude Balloon.
 + We have a [detailed list of lessons and student outcomes here](/pages/lessons.html).
++ We are compiling a list of resources that you can use and will publish it on our website as soon as we finish. Check back later for more details.
+
 
 ### How much does it cost to implement lessons and launch a balloon?
 + It will be free to implement any of our provided lessons.
@@ -31,8 +33,8 @@ We are now working to provide free support and resources for educators to teach 
 Learn more about US FAA rules for [Part 101](http://www.ecfr.gov/cgi-bin/text-idx?rgn=div5&node=14:2.0.1.3.15) that includes HABs. 
 
 
-### Where can I find teaching materials?
-+ We are compiling a list of resources that you can use and will publish it on our website as soon as we finish. Check back later for more details.
+### How do I make a Trackuino?
+Check out our page on how to make your own [Trackuino](/pages/trackuino.html).
 
 # Join our educational team
 Like you, we are always searching for better ways to teach.
