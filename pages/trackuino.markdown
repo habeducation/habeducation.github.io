@@ -16,4 +16,4 @@ The following instructions are for users in the US that can rely on amateur radi
 + Check out this [video](https://www.youtube.com/watch?v=s5IIn0wGVV0) and/or this [video](https://www.youtube.com/watch?v=gfEzGYD8NH4) demonstrating how to assemble your hardware.
 
 ### Program your device.
-We are working on a tutorial to program your amateur radio call sign and set your transmission time. See the Trackuino information on [GitHub](http://github.com/trackuino/sheild) in the meantime.
+We are working on a tutorial to program your amateur radio call sign and set your transmission time. See the Trackuino information on [GitHub](http://github.com/trackuino/shield) in the meantime.
