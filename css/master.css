@@ -1294,20 +1294,18 @@ section.blade.blog .tab-container {
     margin-bottom: 40px
 }
 section.blade.blog .tab-container .tab {
+    clear: both;
     display: block;
-    padding: 20px 20px 20px 110px;
+    min-height: 64px;
+    padding: 10px 20px 10px 20px;
     background-color: #fff;
     margin-bottom: 10px;
     color: #333;
-    background-image: url("/static/img/blog-icon.svg");
-    background-position: 20px center;
-    background-repeat: no-repeat;
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -webkit-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out
 }
-
 
 section.blade.blog .tab-container .tab h3 {
     font-size: 20px;
@@ -1333,7 +1331,7 @@ section.blade.blog .tab-container .tab .abstract {
 }
 @media only screen and (max-width: 870px) {
     section.blade.blog .tab-container .tab {
-        padding-left: 110px
+        padding-left: 10px
     }
     section.blade.blog .tab-container .tab h3 {
         font-size: 16px
@@ -1510,4 +1508,13 @@ footer .footer-image {
     width: 25px;
     margin-left: 25px;
     float: right
+}
+
+.postimg { 
+    float: left;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
 }

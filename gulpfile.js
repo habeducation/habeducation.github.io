@@ -11,12 +11,11 @@ gulp.task('minifycss', (cb) => {
     return gulp.src('css/master.css')
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('css/'));
+        .pipe(gulp.dest('_includes/'));
 });
 
-gulp.task('inlinecss', ['minifycss'], () => {
+gulp.task('compactifyhead', ['minifycss'], () => {
     return gulp.src('_preprocess/head.html')
-        .pipe(smoosh())
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(gulp.dest('_includes/'));
 });
@@ -56,8 +55,8 @@ gulp.task('debug', () => {
     .pipe(gulp.dest('js'));
 });
 
-gulp.task('default', ['build','minifycss','inlinecss']);
-gulp.task('devmode', ['debug','minifycss','inlinecss']);
+gulp.task('default', ['build','minifycss','compactifyhead']);
+gulp.task('devmode', ['debug','minifycss','compactifyhead']);
 
 gulp.task('watch', () => {
     gulp.watch('src/hab.js/hab.js', ['default']);

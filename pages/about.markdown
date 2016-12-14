@@ -38,7 +38,7 @@ at Truman State University
 dbindner@truman.edu
 
 **Derek Sigler**  
-at [Arch Reactor Hackerspace]({{ http://archreactor.org }}) in Saint Louis  
+at [Arch Reactor Hackerspace](http://archreactor.org) in Saint Louis  
 dereksigler@yahoo.com
 
 **Debora Lintner**  

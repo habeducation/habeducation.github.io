@@ -13,10 +13,11 @@
         {% for post in site.posts %}
             {% unless post.tags contains "Discussion" %}
                 {% if counter < limitposts %}
+                <a class="tab" href="{{ post.url }}">
                 {% if post.thumb != null %}
-                <a class="tab" href="{{ post.url }}" style="background-image: url('{{ post.thumb }}');">
+                <amp-img class="postimg" src="{{ post.thumb }}" alt="Post picture" height="64" width="64" /></amp-img>
                 {% else %}
-                <a class="tab" href="{{ post.url }}" style="background-image: url('https://twitter.com/balloonedu/profile_image?size=bigger');">
+                <amp-img class="postimg" src="/static/img/icon.png" alt="Post picture" height="64" width="64" /></amp-img>
                 {% endif %}
                   <h3>{{ post.title }}</h3>
                   <div class="subtitle">{{ post.date  | date: "%-d %B %Y" }}</div>
