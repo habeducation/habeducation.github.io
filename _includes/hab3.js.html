@@ -4,26 +4,47 @@
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   }
 </style>
-<script src="{{base}}/js/hab2.js"></script>
+<script src="{{base}}/js/hab.js"></script>
 <script src="{{base}}/js/jquery.js"></script>
 
 Height of flight1 vs flight2
 <div id="arbitrary"></div>
 Flight path of flight1 vs flight2
 <div id="arbitrary2"></div>
+Ozone levels vs time
+<div id="arbitrary3"></div>
+Ozone levels vs altitude
+<div id="arbitrary4"></div>
+Ozone levels (log scale) vs altitude
+<div id="arbitrary5"></div>
 <div id="version"></div>
 
 <script>
 $(function() {
-    var x = { field: 'timestamp_fixed', type: 'quantitative' };
+    var x = { field: 'timestamp_offset', type: 'quantitative', scale: { zero: false } };
     var y = { field: 'altitude_ft', type: 'quantitative', scale: { zero: false } };
-    var c = { field: 'cat', type: 'ordinal' };
-    plotGraph('#arbitrary', '/data/balloon3.csv', x, y, c);
+    var c = { field: 'cat', type: 'nominal' };
+    plotGraph('#arbitrary', '/data/balloon5.csv', x, y, c);
 
     var x = { field: 'lat', type: 'quantitative', scale: { zero: false } };
     var y = { field: 'lng', type: 'quantitative', scale: { zero: false } };
-    var c = { field: 'cat', type: 'ordinal' };
-    plotGraph('#arbitrary2', '/data/balloon3.csv', x, y, c);
+    var c = { field: 'cat', type: 'nominal' };
+    plotGraph('#arbitrary2', '/data/balloon5.csv', x, y, c);
+
+    var x = { field: 'timestamp_offset', type: 'quantitative', scale: { zero: false } };
+    var y = { field: 'oxid_gas', type: 'quantitative', scale: { zero: false } };
+    var c = { field: 'cat', type: 'nominal' };
+    plotGraph('#arbitrary3', '/data/balloon5.csv', x, y, c);
+
+    var x = { field: 'oxid_gas', type: 'quantitative', scale: { zero: false } };
+    var y = { field: 'altitude_ft', type: 'quantitative', scale: { zero: false } };
+    var c = { field: 'cat', type: 'nominal' };
+    plotGraph('#arbitrary4', '/data/balloon5.csv', x, y, c);
+
+    var x = { field: 'oxid_gas', type: 'quantitative', scale: { zero: false, type: 'log' } };
+    var y = { field: 'altitude_ft', type: 'quantitative', scale: { zero: false } };
+    var c = { field: 'cat', type: 'nominal' };
+    plotGraph('#arbitrary5', '/data/balloon5.csv', x, y, c);
     setupVersion("#version");
 });
 </script>
