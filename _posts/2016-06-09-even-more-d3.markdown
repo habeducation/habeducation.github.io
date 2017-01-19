@@ -8,10 +8,10 @@ abstract: "Even more d3"
 ---
 
 
-# Comparison of balloons HAB_0 and HAB_2
+# Comparison of balloon launch data
 
 
-We compared the results of HAB_0 and HAB_2 data, here is a sample!
+We compared the results of from our balloon data, here is a sample!
 
 
 {% include hab3.js.html %}
