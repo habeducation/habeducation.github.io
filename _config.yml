@@ -12,6 +12,8 @@ baseurl: "/"
 url: "http://hab.education" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.jpg"
+exclude: ['_site', 'node_modules']
+
 
 # Build settings
 markdown: kramdown
