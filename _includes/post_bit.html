@@ -1,0 +1,11 @@
+<!-- Post template -->
+<a class="tab" href="{{ post.url }}">
+{% if post.thumb != null %}
+<amp-img class="postimg" src="{{ post.thumb }}" alt="Post picture" height="64" width="64" /></amp-img>
+{% else %}
+<amp-img class="postimg" src="/static/img/icon.png" alt="Post picture" height="64" width="64" /></amp-img>
+{% endif %}
+  <h3>{{ post.title }}</h3>
+  <div class="subtitle">{{ post.date  | date: "%-d %B %Y" }}</div>
+</a>
+<!-- /Post template -->
