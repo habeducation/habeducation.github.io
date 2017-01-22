@@ -335,8 +335,6 @@ section.hero {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("/static/img/background.jpg");
-    min-height: 550px;
-    padding: 65px 0 0;
     position: relative
 }
 section.hero .six.columns {
@@ -357,7 +355,7 @@ section.hero .six.columns {
 @media only screen and (max-width: 870px) {
     section.hero {
         min-height: 450px;
-        padding: 40px 0
+        padding: 0
     }
     section.hero h1 {
         font-size: 30px
@@ -387,11 +385,13 @@ section.promo {
     padding: 0;
     position: relative;
 }
+section.promo a {
+    color: #0379C4;
+}
+
 section.promo .inside {
-    background: #fff;
     border-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    color: #272727;
     display: inline-block;
     margin: 20px 0;
     overflow: hidden;
@@ -1020,14 +1020,12 @@ header .tab.hamburger {
 }
 @media only screen and (max-width: 870px) {
     .home .hero {
-        padding: 80px 0 70px 0
+        padding: 0
     }
 }
 @media only screen and (min-width: 871px) {
     .home .hero {
         min-height: 420px;
-        padding-bottom: 4px;
-        padding-top: 134px
     }
 }
 .home .hero .container {
@@ -1541,6 +1539,8 @@ section.blade.blog .tab-container .tab .abstract {
 footer {
     margin-top: 40px;
     border-top: 1px solid #ddd;
+    margin-bottom: 30px;
+    text-align: center;
 }
 footer p {
     margin: 0
@@ -1702,4 +1702,28 @@ footer .footer-image {
         left: 0px;
         bottom: 0px;
     }
+}
+
+.blck {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.white-bg {
+    background: white;
+    color: black;
+}
+
+.black-bg {
+    background: black;
+    color: white;
+}
+
+.donate-div {
+    padding: 20px 0;
+}
+
+.fullsize-button a {
+    width: 100%;
+    display: block;
 }
