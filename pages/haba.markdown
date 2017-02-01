@@ -19,7 +19,7 @@ We are currently unable to provide our tracking equipment for use without our su
 
 ### Will I be liable for the loss of HABA devices?
 
-We will never hold you liable for the loss of our equipment in the case that the devices fail. Even in cases in which you make a mistake in good faith, we will not hold you liable. We advise you to follow our instructions to ensure a successful recovery.
+We will never hold you liable for the loss of our equipment in the case that the devices fail or become unrecoverable. Even in cases in which you make a mistake in good faith, we will not hold you liable. We advise you to follow our instructions to ensure a successful recovery.
 
 ## More details about our Assistance Coverage
 
