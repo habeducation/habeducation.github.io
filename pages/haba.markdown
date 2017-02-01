@@ -7,7 +7,7 @@ title: HABA - High Altitude Ballon Assitance Program
 
 As of January 2017, we now offer in-person (hands-on) assistance, logistics, and consultancy for high altitude balloon flights. In collaboration with our network of HAB enthusiasts, we offer services for everything you need for a successful launch, including filling, tracking, and recovery of high altitude balloons -- giving you the peace of mind for your launch. For non-profit organizations, students, and educators, we provide free consulting, so please don't hesitate to contact us.
 
-## Recovery Likelihood and Our Record
+# Our experience
 
 We are proud of our 100% payload recovery. See our Launch page for details about previous launches. Bottom line, we can reduce the technical difficulty of getting your payload into near space. We have launched with video journalists, educators, middle school to college-level students, and promotion and sales specialists. Contact us with your specific needs in order to succeed. We have even recovered payloads stuck in trees for our clients on tight time schedules!
 
