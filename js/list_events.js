@@ -1,11 +1,11 @@
 Date.prototype.getMonthName = function(lang) {
     lang = lang && (lang in Date.locale) ? lang : 'en';
-    return Date.locale[lang].month_names[this.getMonth()];
+    return Date.locale[lang].month_names[this.getMonth() - 1];
 };
 
 Date.prototype.getMonthNameShort = function(lang) {
     lang = lang && (lang in Date.locale) ? lang : 'en';
-    return Date.locale[lang].month_names_short[this.getMonth()];
+    return Date.locale[lang].month_names_short[this.getMonth() - 1];
 };
 
 Date.locale = {
