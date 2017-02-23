@@ -24,7 +24,7 @@ function loadevents(url, dest) {
 	    $.each(json, function (i, ev) {
 	        //alert(fb.result);
 	        //var datetime = ev.Year + "-" + ev.Month + "-" + ev.Day;
-	        var evdate = new Date(+("20" + ev.Year), +ev.Month, +ev.Day);
+	        var evdate = new Date(+("20" + ev.Year), (+ev.Month) - 1, +ev.Day);
 	        var today = new Date();
 
 	        if (evdate > today) {
