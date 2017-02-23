@@ -12,8 +12,6 @@ title: Events Calendar
 - Please have a computer with microphone, or a telephone that can dial 800 numbers ready.
 - Please contact contact@hab.education to connect. 
 
-# Special events 
-
 <ul class="event-list" id="event-list">
 
 </ul>
