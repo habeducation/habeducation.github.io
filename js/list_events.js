@@ -1,11 +1,11 @@
 Date.prototype.getMonthName = function(lang) {
     lang = lang && (lang in Date.locale) ? lang : 'en';
-    return Date.locale[lang].month_names[this.getMonth() - 1];
+    return Date.locale[lang].month_names[this.getMonth()];
 };
 
 Date.prototype.getMonthNameShort = function(lang) {
     lang = lang && (lang in Date.locale) ? lang : 'en';
-    return Date.locale[lang].month_names_short[this.getMonth() - 1];
+    return Date.locale[lang].month_names_short[this.getMonth()];
 };
 
 Date.locale = {
@@ -24,7 +24,7 @@ function loadevents(url, dest) {
 	    $.each(json, function (i, ev) {
 	        //alert(fb.result);
 	        //var datetime = ev.Year + "-" + ev.Month + "-" + ev.Day;
-	        var evdate = new Date("20" + ev.Year, ev.Month, ev.Day);
+	        var evdate = new Date(+("20" + ev.Year), +ev.Month, +ev.Day);
 	        var today = new Date();
 
 	        if (evdate > today) {
