@@ -24,12 +24,13 @@ function loadevents(url, dest) {
 	    $.each(json, function (i, ev) {
 	        //alert(fb.result);
 	        //var datetime = ev.Year + "-" + ev.Month + "-" + ev.Day;
-	        var evdate = new Date(ev.Year, ev.Month, ev.Day);
+	        var evdate = new Date("20" + ev.Year, ev.Month, ev.Day);
 	        var today = new Date();
 
 	        if (evdate > today) {
 	        	if (needsHeading) {
 	        		dest.append($("<h1>Future Special Events</h1>"));
+	        		needsHeading = false;
 	        	}
 	        } else {
 	        	if (lastFuture) {
