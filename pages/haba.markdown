@@ -23,8 +23,8 @@ We will never hold you liable for the loss of our equipment in the case that the
 
 ## More details about our Assistance Coverage
 
-- **Transferring knowledge**: We will give you details necessary for your own launch. Check out this resource from Launch with Us.
-- **Providing tracking devices**: We reduce your risk of losing a payload by flying fine-tuned, tested, previously validated tracking devices. Our devices leverage both broad and established cellular and radio networks, reducing the risk of losing your payload due to spotty coverage.
+- **Transferring knowledge**: We will give you details necessary for your own launch. Check out [this resource from Launch with Us](http://www.launchwithus.org/products/free-user-guide-download).
+- **Providing tracking devices**: We reduce your risk of losing a payload by flying fine-tuned, tested, previously validated tracking devices. Our devices leverage both broad and established cellular and HAM radio networks, reducing the risk of losing your payload due to spotty coverage.
 - **Operating tracking ground stations**: We provide ground station equipment to track your payload. 
 - **Ensuring regulatory compliance**: We will help you with various regulatory compliance requirements, such as launch site selection and filing a notice to airmen (NOTAM).
 - **Providing launch-day tasks and equipment**: Figuring out how to fill the balloons safely may be daunting. We help you make the process safe, easy, and fun.
