@@ -6,7 +6,11 @@ title: Education
 ### What can I teach my students?
 + Many aspects of a STEAM education can be applied with High Altitude Balloon.
 + We have a [detailed list of lessons and student outcomes here](/pages/lessons.html).
-+ We are compiling a list of resources that you can use and will publish it on our website as soon as we finish. Check back later for more details.
+
+### Additional resources
++ Find lesson plans, materials, and information about HAB grants from Teaching on the Edge: [Using High-Altitude Ballooning in the Classroom](http://ilearn.bsu.edu/tote/resources.php).
++ Get help every step of the way while building your HAB curriculum with Stratostar. [Get information for administrators, educators, students, and parents](http://stratostar.net/assets/weather-balloon-curriculum-ebook2.pdf).
++ Find [curriculum materials and a supply list](http://www.aiaa.org/secondary.aspx?id=17585) from The American Institute of Aeronautics and Astronautics (AIAA).
 
 ### Our vision
 
