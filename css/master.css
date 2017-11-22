@@ -685,7 +685,7 @@ header .tab {
 @media only screen and (max-width: 870px) {
     header .tab {
         margin-left: auto;
-        padding: 10px 12px
+        padding: 10px 4px
     }
 }
 header .tab.go-button {
